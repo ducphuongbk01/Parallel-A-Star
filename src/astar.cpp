@@ -22,9 +22,7 @@ using namespace std::chrono;
 
 
 Set close_set;
-// SequentialQueue queue;
-// ScheduleLockQueue queue;
-SpinLockQueue queue;
+SequentialQueue queue;
 // FineGrainQueue queue;
 // CoarseGrainQueue queue;
 // LockFreeQueue queue;
